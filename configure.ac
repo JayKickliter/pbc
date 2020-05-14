@@ -161,8 +161,6 @@ if test "$with_safe_clean" != "n"; then
 fi
 
 # Checks for library functions.
-AC_FUNC_MALLOC
-AC_FUNC_REALLOC
 AC_CHECK_FUNCS([floor gettimeofday memmove memset pow sqrt strchr strdup])
 AC_CHECK_FUNCS([explicit_bzero explicit_memset])
 
